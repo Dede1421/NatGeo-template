@@ -13,12 +13,13 @@ h3 {
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 20px;
+  letter-spacing: 2.8px;
 }
 
 input {
   padding: 20px 10px;
   letter-spacing: 2.8px;
-  color:#333333;
+  color: #333333;
 }
 
 button {
@@ -28,9 +29,16 @@ button {
   cursor: pointer;
   font-size: 16px;
   padding: 20px;
-  
+
+  &:hover {
+    background-color: rgb(29, 161, 242);
+  }
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
 // header {
 //   position: absolute;
 //   width: 100%;
@@ -75,4 +83,25 @@ footer {
 .footer-info {
   display: flex;
   justify-content: space-between;
+}
+
+.fab {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.fa-facebook-f {
+  margin-left: 0px;
+
+  &:hover {
+    color: #3c5a99;
+  }
+}
+
+.fa-twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.fa-flipboard:hover {
+  color: #f52828;
 }
