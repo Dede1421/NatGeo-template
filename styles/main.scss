@@ -39,6 +39,10 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+h1 {
+  font-size: 34px;
+}
 // header {
 //   position: absolute;
 //   width: 100%;
@@ -73,8 +77,16 @@ a {
   height: 100vh;
   background-image: url("../images/polar.jpg");
   background-size: cover;
+  background-position-x: center;
+    
+  // display: flex;
+  // align-items: flex-end;
 }
 
+// .polar {
+//   width: 100%;
+//   height: 80%;
+// }
 //Footer
 footer {
   padding: 50px;
